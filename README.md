@@ -1,6 +1,6 @@
 # Outliner with Local and Cloud Server Data Sync
 
-This is a sample application built with Laravel 8 that implements an outliner with local and cloud server data synchronization. It allows users to create and organize items in an outline-like structure, and synchronize their data between their local storage and a cloud server.
+This is a sample application built with Laravel 10 that implements an outliner with local and cloud server data synchronization. It allows users to create and organize items in an outline-like structure, and synchronize their data between their local storage and a cloud server.
 
 ## Features
 
@@ -52,6 +52,13 @@ To manage outliner items, follow these steps:
 5. Changes made on the local server will be automatically synced to the cloud server.
 
 To auto sync both cloud and local Server, you can simply run the following command: `php artisan sync:outliner-items`.
+
+
+## Built With
+
+- Laravel 10
+- Bootstrap 5
+- jQuery
 
 ## Contributing
 
