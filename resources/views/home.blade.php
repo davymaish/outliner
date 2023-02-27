@@ -10,10 +10,10 @@
                     <div class="card-body">
                         <div class="row">
                             <div class="col-md-6">
-                                <a href="{{ route('outliner.create') }}" class="btn btn-primary btn-block">{{ __('Create Outline Item') }}</a>
+                                <a href="{{ route('outliner.create') }}" class="btn btn-primary btn-block">{{ __('Create New Item') }}</a>
                             </div>
                             <div class="col-md-6">
-                                <a href="{{ route('outliner.index') }}" class="btn btn-success btn-block">{{ __('View Outline Items') }}</a>
+                                <a href="{{ route('outliner.index') }}" class="btn btn-success btn-block">{{ __('View Outliner Items') }}</a>
                             </div>
                         </div>
                     </div>
