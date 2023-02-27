@@ -28,12 +28,12 @@ This is a sample application built with Laravel 8 that implements an outliner wi
 
 ### Cloud Server Data Sync
 
-The application is designed to sync data between a local server and a cloud server. To configure the cloud server data sync, create a new database connection and update the `DB_CLOUD_SERVER_CONNECTION=pgsql` with the name of the connectio you have created.
+The application is designed to sync data between a local server and a cloud server. To configure the cloud server data sync, create a new database connection and update the `DB_CLOUD_SERVER_CONNECTION=pgsql` in your .env file with the name of the connection you have created.
 - Note:: Your local server should not share the same database connection with your cloud server.
 
 ## Usage
 
-Create a new account or log in with an existing one.
+Create a new account or log in with an existing one (email: admin@gmail.com  - Password: secret).
 
 To add a new item, follow these steps:
 
